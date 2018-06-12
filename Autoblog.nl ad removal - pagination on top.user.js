@@ -9,8 +9,8 @@
 // @require        http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js
 // ==/UserScript==
 
-var url = location.pathname;
-var split = url.split('/');
+let url = location.pathname;
+let split = url.split('/');
 if(split[1] == "nieuws" || split[1]=='archive') {
     // doe niets met 't artikel, nieuwsitem
 } else {
