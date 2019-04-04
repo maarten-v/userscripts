@@ -14,3 +14,4 @@ let HeaderFoetsie = document.getElementsByClassName('topmenu');
 while (HeaderFoetsie.length) {
     HeaderFoetsie[0].parentNode.removeChild(HeaderFoetsie[0]);
 }
+document.getElementById('header').remove();
