@@ -5,7 +5,7 @@
 // @include     https://www.nu*.nl/*
 // @version     1.0.2
 // @namespace      https://github.com/maarten-v/userscripts/
-// @updateURL      https://github.com/maarten-v/userscripts/raw/master/Nu.nl%20remove%20header.js
+// @updateURL      https://github.com/maarten-v/userscripts/raw/master/Nu.nl%20remove%20header.user.js
 // @author         Maarten Vliegenthart
 // @description Removes useless pageheader from top of screen
 // ==/UserScript==
