@@ -17,6 +17,9 @@ if(split[1] == "nieuws" || split[1]=='archive') {
 	jQuery('.background').css('margin','0 auto');
 }
 
+// fade branded content
+$('span.ab_blog_author:contains("Branded content")').parents('.list-item').css('opacity',0.5)
+
 $('#right').remove();
 
 // remove sitepicker
