@@ -9,14 +9,6 @@
 // @require        http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js
 // ==/UserScript==
 
-let url = location.pathname;
-let split = url.split('/');
-if(split[1] == "nieuws" || split[1]=='archive') {
-    // doe niets met 't artikel, nieuwsitem
-} else {
-	jQuery('.background').css('margin','0 auto');
-}
-
 // fade branded content
 $('p.entry-meta:contains("Branded content")').parents('article').css('opacity',0.5)
 
