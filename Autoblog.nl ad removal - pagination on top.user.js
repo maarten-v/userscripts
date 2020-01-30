@@ -2,7 +2,7 @@
 // @name           Autoblog.nl ad removal / pagination on top
 // @include        https://www.autoblog.nl/*
 // @grant          none
-// @version        1.0.4
+// @version        1.0.5
 // @namespace      https://github.com/maarten-v/userscripts/
 // @updateURL      https://github.com/maarten-v/userscripts/raw/master/Autoblog.nl%20ad%20removal%20-%20pagination%20on%20top.user.js
 // @author         Maarten Vliegenthart
@@ -18,7 +18,7 @@ if(split[1] == "nieuws" || split[1]=='archive') {
 }
 
 // fade branded content
-$('span.ab_blog_author:contains("Branded content")').parents('.list-item').css('opacity',0.5)
+$('p.entry-meta:contains("Branded content")').parents('article').css('opacity',0.5)
 
 $('#right').remove();
 
