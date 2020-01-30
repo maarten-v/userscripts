@@ -12,7 +12,7 @@
 // fade branded content
 $('p.entry-meta:contains("Branded content")').parents('article').css('opacity',0.5)
 
-$('#right').remove();
+$('aside').remove();
 
 // remove sitepicker
 document.getElementById('sitepicker').remove();
